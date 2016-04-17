@@ -8,6 +8,7 @@ import VideoDetail from './components/video_detail'
 import Heading from './components/heading'
 
 const API_KEY = 'AIzaSyCaLXE-zhjlb7xvd40W_c673QTTirBpfrs';
+const webpack-dev-server = require('webpack-dev-server')
 
 
 
