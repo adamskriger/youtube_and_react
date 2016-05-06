@@ -2,15 +2,13 @@
   "name": "none",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch",
-    "postinstall": "node_modules/.bin/webpack"
+    "build": "webpack"
   },
-  "author": "",
+  "author": "Adam Kriger",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
