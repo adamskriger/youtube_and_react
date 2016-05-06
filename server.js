@@ -13,10 +13,7 @@ if(process.env.NODE_ENV === 'development') {
 }
 
 /* App Config */
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'build')));
-app.use(logger('dev'));
 /* Server Initialization */
 app.get('/', (req, res) => res.sendFile('index.html'));
 var port = process.env.PORT || 3000;
