@@ -2,7 +2,7 @@
   "name": "YoutTubeReactSearch",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "entry.js",
   "repository": "",
   "scripts": {
     "start": "webpack-dev-server",
