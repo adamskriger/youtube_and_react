@@ -19,7 +19,7 @@ class SearchBar extends Component {
       lineHeight: '3.5rem',
       marginBottom: '3rem',
       fontSize: '3.5rem',
-      border: '1px solid black', 
+      border: '1px solid black' 
     }
 
     return (
