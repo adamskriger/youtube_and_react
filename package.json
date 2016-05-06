@@ -1,9 +1,12 @@
 {
   "name": "YoutTubeReactSearch",
   "version": "1.0.0",
-  "description": "",
-  "main": "entry.js",
-  "repository": "",
+  "description": "YoutTubeReactSearch",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamskriger/youtube_and_react.git"
+  },
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack"
